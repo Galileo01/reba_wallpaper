@@ -1,0 +1,12 @@
+@import './normalize.css';
+html, body {
+    height: 100%;
+    /* width: 100%; */
+}
+
+html {
+    --global_bgc: #fff;
+    --global_color: #000000;
+    background-color: var(--global_bgc);
+    color: var(--global_color)
+}
