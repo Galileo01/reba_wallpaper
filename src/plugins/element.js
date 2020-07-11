@@ -3,10 +3,16 @@ import {
     Button,
     Container,
     Header,
-    Footer, 
+    Footer,
     Main,
     Row,
-    Col
+    Col,
+    Tooltip,
+    Message,
+    Card,
+    Alert,
+    Pagination,
+    
 } from 'element-ui'
 
 Vue.use(Button)
@@ -16,3 +22,11 @@ Vue.use(Footer)
 Vue.use(Main)
 Vue.use(Row)
 Vue.use(Col)
+Vue.use(Tooltip)
+Vue.use(Card)
+Vue.use(Alert)
+Vue.use(Pagination)
+
+
+
+Vue.prototype.$message = Message;
